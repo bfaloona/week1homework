@@ -18,7 +18,9 @@ describe 'Everything is an Object!' do
     "Two".should be_a Object
   end
 
-  it 'Numbers are objects'
+  it 'Numbers are objects' do
+    7.should be_a Object
+  end
 
   it 'Hashes are objects'
 
